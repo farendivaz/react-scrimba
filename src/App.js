@@ -1,13 +1,12 @@
 import React from "react";
-import "./App.css";
-import logo from "./react.png";
+import Navbar from "./Navbar";
+import MainContent from "./MainContent";
 
 function App() {
   return (
     <>
-      <h1>React Facts</h1>
-      <p>some paragraph here</p>
-      <img src={logo} />
+      <Navbar />
+      <MainContent />
     </>
   );
 }
