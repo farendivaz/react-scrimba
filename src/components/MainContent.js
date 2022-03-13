@@ -3,7 +3,7 @@ import "./MainContent.css";
 
 function MainContent() {
   return (
-    <>
+    <div className="main">
       <h1>Fun facts about React</h1>
       <ul>
         <li>Was first Released in 2013</li>
@@ -12,7 +12,7 @@ function MainContent() {
         <li>Is maintained by Facebook</li>
         <li>Powers thousand of enterprise apps, including mobile apps</li>
       </ul>
-    </>
+    </div>
   );
 }
 

@@ -1,0 +1,30 @@
+body {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  background-color: #282d35;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #21222a;
+  padding: 1em;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav > h2 {
+  color: #51abc4;
+}
+
+.header > h3 {
+  color: #fff;
+}
+img {
+  width: 70px;
+  height: 60px;
+}
